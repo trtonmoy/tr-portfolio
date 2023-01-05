@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    
+}
+/* Nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+     
+}
+
+.header{
+    background-color: #fff8f3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav h3{
+    font-size: 40px;
+}
+
+.primary-nav{
+    color: orangered;
+}
+
+.header-button{
+    background: orangered;
+    color: white;
+    height: 64px;
+    width: 150px;
+    border: 0;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 16px 20px;
+    border-radius: 5px;
+
+}
+
+/* banner section */
+
+.banner-div{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 40px; 
+}
+
+.banner-subhead{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.banner-head{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    letter-spacing: -5px;
+
+}
+
+.banner-para{
+    color: #757575;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact-button{background: rgb(255, 255, 255);
+    color: rgb(76, 71, 71);
+    height: 64px;
+    width: 150px;
+    border: solid coral;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    margin: 30px;
+   
+
+}
+
+/* Main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-section{
+    margin-top: 130px ;
+    background-color:  #FFF8F3;
+    border-radius: 10px;
+    padding: 120px 150px;
+    text-align: center;
+    
+}
+
+.section-title{
+    text-align: center;
+    color: #181818;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.section-descrip{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.info-title{
+        color: gray;
+        font-weight: 400;
+}
+
+.info-descrip{
+    color: #181818;
+    font-weight: 700;
+}
