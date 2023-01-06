@@ -16,9 +16,9 @@ nav{
 
 .header{
     background-color: #fff8f3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png") , url("/images/developer.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, left;
     
 }
 
@@ -42,7 +42,7 @@ nav h3{
     width: 150px;
     border: 0;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 27px;
     padding: 16px 20px;
     border-radius: 5px;
